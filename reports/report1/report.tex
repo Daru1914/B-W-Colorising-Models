@@ -66,16 +66,16 @@
 	
 	\subsection{Describing the Data}
 	
-	As mentioned prior, we have both grayscale and colored images in the Image Colorization dataset. Those images aren't strictly limited to a single topic, so models developed on this dataset are more generalized than if they had been developed on MNIST dataset:
+	Image Colorization dataset consists from images in \textbf{LAB} format: \textbf{L} - Lightness, \textbf{a} - Red/Green Value, \textbf{b} - Blue/Yellow Value. L and ab values are stored in different numpy arrays, so to get an image representation they have to be loaded and possibly combined. If we want to see a B\&W image we only need to load the lightness values, while if we want to see a colored target image we also need to load the colors. Pictures in the dataset aren't strictly limited to a single topic, so models developed on this dataset are more generalized than if they had been developed on MNIST dataset. We provide some of the B\&W pictures and their colored alternatives below:
 	\begin{figure}[H]
 		\includegraphics{image1.png}
 	\end{figure}
 	
 	\section{Team Name and Github}
 	
-	As our team name, we have selected: \textbf{Bokassa}(really should be changed. while naming the team after an African war criminal is funny, it is also too weird for my comfort zone).
+	As our team name, we have selected: \textbf{Monochrome Magic Masters}.\\
 	
-	\textbf{Link:}\href{https://github.com/Daru1914/B-W-Colorising-Models}{\emph{https://github.com/Daru1914/B-W-Colorising-Models}}
+	\textbf{Repository Link:}\href{https://github.com/Daru1914/B-W-Colorising-Models}{\emph{https://github.com/Daru1914/B-W-Colorising-Models}}
 	
 	\begin{thebibliography}{9}
 		\bibitem{mnist} https://paperswithcode.com/dataset/fashion-mnist

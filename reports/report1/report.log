@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  17 SEP 2023 04:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  17 SEP 2023 16:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -387,13 +387,18 @@ Overfull \hbox (107.28865pt too wide) in paragraph at lines 71--72
 [][] 
  []
 
-[2] [3 <./image1.png>] [4] (report.aux)
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+[3 <./image1.png>] [4] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: F9B4A07269F46327350E052CF288846D;1002.
  ) 
 Here is how much of TeX's memory you used:
  10137 strings out of 476360
- 158250 string characters out of 5788497
+ 158290 string characters out of 5788497
  1860993 words of memory out of 5000000
  30408 multiletter control sequences out of 15000+600000
  519301 words of font info for 58 fonts, out of 8000000 for 9000
@@ -408,7 +413,7 @@ s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/user/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/user/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (4 pages, 2488825 bytes).
+Output written on report.pdf (4 pages, 2490832 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
